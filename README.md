@@ -64,7 +64,7 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![image](https://github.com/user-attachments/assets/e947dcda-b023-4668-a955-a5faf0949702)
+ ![image](https://github.com/user-attachments/assets/889590d1-0d12-4bac-b250-5a82fffde3ab)
 
 
 iv)	Creating the new test cell view
@@ -97,12 +97,12 @@ For Transient Analysis Settings and Output
  
  ![image](https://github.com/user-attachments/assets/92d14f32-8ba5-4fed-978a-38c360b8e305)
 
- ![image](https://github.com/user-attachments/assets/b86fd87f-7a66-47f5-bc26-2b5f4cb5679d)
+ ![image](https://github.com/user-attachments/assets/4107254e-af09-41ba-9556-a856e913e379)
 
  For DC Analysis Settings and Output
 ![image](https://github.com/user-attachments/assets/0ee74107-e03a-4204-b685-83ced611c993)
 
-![image](https://github.com/user-attachments/assets/e6b8b6c7-378f-449e-82a5-72286f238b02)
+![image](https://github.com/user-attachments/assets/559e7ae4-66fc-47d5-b085-8a125d0d75b8)
 
  
 
