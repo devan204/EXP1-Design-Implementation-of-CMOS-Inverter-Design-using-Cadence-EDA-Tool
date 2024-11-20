@@ -1,20 +1,24 @@
-Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
+# Ex No: 01  Design a CMOS inverter and analyze its DC and AC characteristics using Cadence ED
 
-Aim:
+## Aim:
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+## Circuit Diagram
+![IMG-20241115-WA0007](https://github.com/user-attachments/assets/f71fef3e-b78a-4f93-9e1b-9219f9a1c3d5)
+
+
+## S C H E M A T I C S I M U L A T I O N 
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -46,7 +50,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![image](https://github.com/user-attachments/assets/784d0afa-d8c6-4d7d-8681-84e5c851ea37)
+![Screenshot (26)](https://github.com/user-attachments/assets/e440184b-825c-4c09-b4ce-11cdcec127bb)
+
 
 
  
@@ -64,7 +69,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![image](https://github.com/user-attachments/assets/889590d1-0d12-4bac-b250-5a82fffde3ab)
+![Screenshot (27)](https://github.com/user-attachments/assets/dd5201eb-ad15-4d87-a617-10a714643537)
+
 
 
 iv)	Creating the new test cell view
@@ -76,11 +82,12 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
-![image](https://github.com/user-attachments/assets/0f1eb390-537e-4915-a9d5-6855883745d4)
+![Screenshot (28)](https://github.com/user-attachments/assets/35b8c721-aa06-46d7-b71a-5c124eaeddff)
+
 
 
  
-Analog simulation by SPECTRE.
+## Analog simulation by SPECTRE
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -90,19 +97,24 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
- ![image](https://github.com/user-attachments/assets/3aac50ec-bc0f-406e-be2e-a504b8afa8c9)
+![Screenshot (34)](https://github.com/user-attachments/assets/6f0591f2-6c4a-458a-b418-4e011b53fac2)
 
-For Transient Analysis Settings and Output
+
+## For Transient Analysis Settings and Output
  
  
- ![image](https://github.com/user-attachments/assets/92d14f32-8ba5-4fed-978a-38c360b8e305)
+ ![Screenshot (29)](https://github.com/user-attachments/assets/22968931-b759-4c06-b51a-37180f2b3c53)
 
- ![image](https://github.com/user-attachments/assets/4107254e-af09-41ba-9556-a856e913e379)
 
- For DC Analysis Settings and Output
-![image](https://github.com/user-attachments/assets/0ee74107-e03a-4204-b685-83ced611c993)
+ ![Screenshot (32)](https://github.com/user-attachments/assets/2605ca22-ec17-45c9-b28e-a9c996202d55)
 
-![image](https://github.com/user-attachments/assets/559e7ae4-66fc-47d5-b085-8a125d0d75b8)
+
+ ## For DC Analysis Settings and Output
+![Screenshot (38)](https://github.com/user-attachments/assets/4c26f4a6-c91b-4c0d-8767-1a35caf843a6)
+
+
+![Screenshot (36)](https://github.com/user-attachments/assets/f7f66ee1-058c-48e8-a3f2-eb769f2b7770)
+
 
  
 
@@ -111,7 +123,7 @@ For Transient Analysis Settings and Output
 
  
 
-Results:
+## Results:
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
